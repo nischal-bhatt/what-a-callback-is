@@ -11,7 +11,7 @@ public class ReactiveProgramming {
 		Intint intint = new Intint();
 		System.out.println("value of intint is " + intint.x);
 		CallBack cb = (x) -> {
-			x.x = x.x + 24;
+			x.x = x.x + 88;
 			return x;
 		};
 
